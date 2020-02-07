@@ -1,0 +1,13 @@
+.labelbg
+{
+	margin: 1px;
+	padding: 1px;
+	border-radius: 10px;
+	border: 5px solid grey;
+	background-color: grey;
+	opacity: 5;
+	font-size: 15px; 
+	color: antiquewhite;
+
+}
+

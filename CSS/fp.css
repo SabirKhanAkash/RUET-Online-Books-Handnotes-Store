@@ -1,0 +1,31 @@
+.fp-box{
+	background: rgba(0,0,0,.5);
+	color: #fff;
+	width: 400px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	position: absolute;
+	padding: 70px 30px;
+}
+
+.fp-box input{
+ width: 100%;
+ margin-bottom: 20px;
+}
+.fp-box input[type="number"],
+.fp-box input[type="password"],
+.fp-box input[type="text"]
+{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+}
+::placeholder {
+ color: rgba(255,255,255,.5);
+}

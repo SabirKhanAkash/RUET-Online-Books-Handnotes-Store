@@ -1,0 +1,41 @@
+#mains
+{
+	width: 350px;
+	margin: 0 auto;
+	margin-left: 515px;
+	background-color: transparent;
+	padding: 3px;
+	border-radius: 45px;
+	border: 2px solid transparent;
+	font-family: GeForce; 
+	font-size: 19px;
+	color: white;
+	font-weight: bolder;
+
+}
+
+.myform{
+	width: 270px;
+	margin: 0 auto;
+	border-radius: 10px;
+	padding: 4px;
+	text-shadow: all;
+	font-weight: bold;
+	outline-color: black;
+}
+
+.myform input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.myform input[type="number"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}

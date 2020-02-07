@@ -1,0 +1,39 @@
+.as
+{
+	width: 170px;	
+	background: rgba(0,0,0,.5);
+	color: #fff;
+	padding: 6px;
+	border-radius: 15px;
+	border: 1px solid grey;
+}
+.as:hover {
+	background-color: #fff;
+	font: normal;
+	color: black;
+}
+
+.l1
+{
+	background-color: white;
+	text-shadow: all;
+	font-weight: bolder;
+}
+
+.hov:hover {
+	background-color: #fff;
+}
+
+#test
+{
+	margin: 0 auto;
+	margin-top: 30px;
+	margin-left: 50px;
+	margin-right: 30px;
+	margin-bottom: 30px;
+	background-color: transparent;
+	padding: 3px;
+	border-radius: 45px;
+	border: 2px solid transparent;
+}
+

@@ -1,0 +1,32 @@
+
+.log-box{
+	background: rgba(0,0,0,.5);
+	color: #fff;
+	width: 400px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	position: absolute;
+	padding: 70px 30px;
+}
+
+.log-box input{
+ width: 100%;
+ margin-bottom: 20px;
+}
+.log-box input[type="number"],
+.log-box input[type="password"]
+{
+ border: none;
+ border-bottom: 1px solid #fff;
+ background: transparent;
+ outline: none;
+ height: 40px;
+ color: #fff;
+ font-size: 16px;
+}
+::placeholder {
+ color: rgba(255,255,255,.5);
+}
+

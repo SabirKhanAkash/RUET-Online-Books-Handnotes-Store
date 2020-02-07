@@ -1,0 +1,38 @@
+
+.reg-box{
+	background: rgba(0,0,0,.5);
+	color: #fff;
+	width: 400px;
+	top: 75%;
+	left: 50%;
+	margin-bottom: 15px;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	position: absolute;
+	padding: 70px 30px;
+}
+
+.reg-box input{
+ width: 100%;
+ margin-bottom: 20px;
+}
+.reg-box input[type="number"],
+.reg-box input[type="password"],
+.reg-box input[type="text"]
+{
+ border: none;
+ border-bottom: 1px solid #fff;
+ background: transparent;
+ outline: none;
+ height: 40px;
+ color: #fff;
+ font-size: 16px;
+}
+::placeholder {
+ color: rgba(255,255,255,.5);
+}
+
+:hover:placeholder {
+ color: green;
+}
+
